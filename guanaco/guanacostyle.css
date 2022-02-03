@@ -1,0 +1,71 @@
+/* The general purpose style sheet for Guanaco... 
+remember that what you're doing here is defining the tags you
+will be using on each of the pages... You can override
+these settings by changing inline styles. */
+
+/*and also remember that these braces are how you comment
+in css files - it's not html. */
+
+
+
+img			{border: 0;}
+
+/*Rather use <td> definitions for tighter control over the contents of your table
+table.1 		{font-size:8pt;
+			font-family:verdana, arial, helvetica;
+			color: #336699;}
+
+table.2			{font-size:8pt;
+			font-family:georgia, arial, helvetica;
+			color: #336699;}
+*/
+
+td	 		{font-size:8pt;
+			font-family:verdana, arial, helvetica;
+			line-height:1.5;
+			color: #336699;}
+
+span.highlight		{font: 9pt verdana, arial, helvetica;
+			font-weight:bold;
+			line-height:1.5;
+			color: #cc3333;}
+			
+			span.medlight		{font: 8pt verdana, arial, helvetica;
+			line-height:1.5;
+			color: #006633;}
+
+span.newshead		{font: 9pt verdana, arial, helvetica;
+			font-weight:bold;}
+
+span.newstext		{font: 9pt verdana, arial, helvetica;}
+
+span.title		{font: 10pt verdana, arial, helvetica;
+			color: #006633;}
+
+span.header		{font: 9pt verdana, arial, helvetica;
+			font-weight:bold;
+			color: #336699;
+                        text-align: center;}
+
+span.mainheader		{font: 12pt arial, helvetica;
+			font-weight:bold;
+			color: #006633;}
+
+span.navheader		{font: 10pt arial, helvetica;
+			font-weight:bold;
+			color: #006633;}
+
+span.navlink		{font: 8pt verdana, arial, helvetica;
+			line-height:1.5;
+			color: #666600;}
+
+span.footer		{font: 8pt arial, helvetica;
+			color: #666600;}
+
+a:link			{color: #666600;}
+
+a:visited		{color: #666600;}
+
+
+
+
